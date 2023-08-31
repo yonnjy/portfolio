@@ -6,9 +6,9 @@
 
     height: 60px;
     line-height: 60px;
-    padding: 0 100px;
+    padding: 0 250px;
 
-    background: #fff;
+    background: #FFF;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     z-index: 999;
 }
@@ -16,9 +16,9 @@
 .btn_link {
     position: fixed;
     top: 22px;
-    left: 50%;
+    right: 255px;
     z-index: 1000;
-    transform: translate(-50%, 0);
+    transform: translate(0, 0);
     text-align: right;
 }
 
@@ -29,21 +29,47 @@
 
 .btn_link ul li a {
     display: block;
-    width: 14px;
-    height: 14px;
-    background: #ddd;
+    width: 13px;
+    height: 13px;
+    background: #222;
     border-radius: 50%;
     font-size: 0;
 }
 
 .btn_link ul li.on a {
+    transition: 0.3s;
     width: 40px;
-    background: #888;
+    background: transparent;
+    border: 1px solid #222;
     border-radius: 50px;
 }
 
 .cover {
     display: none;
+}
+
+
+#intro {
+    display: flex;
+    align-items: center;
+}
+
+#intro h2 {
+    width: 400px;
+    margin: 0 auto 100px auto;
+}
+
+#intro h2 span {
+    display: inline-block;
+    width: 100px;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+}
+
+#intro h2 span:nth-child(odd) {
+    background: #333;
+    color: #fff;
 }
 
 .pofol .img_box {
@@ -175,17 +201,27 @@
 #portfolio02 .txt .list .tools,
 #portfolio03 .txt .list .tools,
 #portfolio04 .txt .list .tools {
-    margin: 0 0 27px 0;
+    margin: 0 0 16px 0;
 }
 
-.pofol .txt .tools,
-.pofol .txt .info {
+#portfolio05 .txt .con .tools,
+#portfolio06 .txt .con .tools {
+    margin: 0 0 10px 0;
+}
+
+.pofol .txt .con .tools,
+.pofol .txt .con .info {
     line-height: 24px;
+}
+
+.pofol .txt .con .tools {
+    margin: 2px 0 0 0;
 }
 
 .pofol .txt .color {
     display: flex;
     align-items: center;
+    height: 32px;
 }
 
 .pofol .txt .color span {
@@ -194,7 +230,6 @@
     height: 16px;
     border-radius: 50%;
     font-size: 0;
-    margin: 7px 0 9px 0;
 }
 
 .pofol .txt .color span~span {

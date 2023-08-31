@@ -44,3 +44,26 @@ COVER_A.forEach((lnk, idx) => {
 COVER.addEventListener('wheel', e => {
     e.stopPropagation();
 });
+
+const txt = gsap.utils.toArray('#intro h2');
+
+txt.forEach((it, idx, arry) => {
+    const a = it.innerText;
+    const t = [...a].map(it => `<span>${it}</span>`).join('');
+
+    it.innerHTML = t;
+    const chars = it.querySelectorAll('span');
+
+    gsap.from(chars, {
+        yPercent: 100,
+        autoAlpha: 0,
+        duration: 1,
+        repeat: -1,
+        //repeatDelay: 2,
+        ease: "bounce",
+        stagger: {
+            amount: 1,
+            from: "random"
+        },
+    });
+});

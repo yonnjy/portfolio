@@ -7,11 +7,11 @@
 }
 
 #portfolio03 {
-    background: linear-gradient(90deg, #F5E8DF 50%, #FFFFFF 50%);
+    background: linear-gradient(90deg, #B80101 50%, #FFFFFF 50%);
 }
 
 #portfolio04 {
-    background: linear-gradient(90deg, #FFFFFF 50%, #bfae90 50%);
+    background: linear-gradient(90deg, #FFFFFF 50%, #02652f 50%);
 }
 
 #portfolio05 {
@@ -26,6 +26,7 @@
     background: #FFF;
     border: 1px solid #ddd;
 }
+
 .pofol .color span:nth-child(2) {
     background: #222;
 }
@@ -33,9 +34,23 @@
 #portfolio01 .color span:nth-child(3) {
     background: #F5E8DF;
 }
+
+#portfolio02 .color span:nth-child(3) {
+    background: #bfae90;
+}
+
+#portfolio03 .color span:nth-child(3) {
+    background: #B80101;
+}
+
+#portfolio04 .color span:nth-child(3) {
+    background: #02652f;
+}
+
 #portfolio05 .color span:nth-child(3) {
     background: #00a256;
 }
+
 #portfolio06 .color span:nth-child(3) {
     background: #132E27;
 }
