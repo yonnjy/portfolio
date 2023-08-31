@@ -1,0 +1,41 @@
+#portfolio01 {
+    background: linear-gradient(90deg, #F5E8DF 50%, #FFFFFF 50%);
+}
+
+#portfolio02 {
+    background: linear-gradient(90deg, #FFFFFF 50%, #bfae90 50%);
+}
+
+#portfolio03 {
+    background: linear-gradient(90deg, #F5E8DF 50%, #FFFFFF 50%);
+}
+
+#portfolio04 {
+    background: linear-gradient(90deg, #FFFFFF 50%, #bfae90 50%);
+}
+
+#portfolio05 {
+    background: linear-gradient(90deg, #00a256 50%, #FFFFFF 50%);
+}
+
+#portfolio06 {
+    background: linear-gradient(90deg, #FFFFFF 50%, #132E27 50%);
+}
+
+.pofol .color span:nth-child(1) {
+    background: #FFF;
+    border: 1px solid #ddd;
+}
+.pofol .color span:nth-child(2) {
+    background: #222;
+}
+
+#portfolio01 .color span:nth-child(3) {
+    background: #F5E8DF;
+}
+#portfolio05 .color span:nth-child(3) {
+    background: #00a256;
+}
+#portfolio06 .color span:nth-child(3) {
+    background: #132E27;
+}

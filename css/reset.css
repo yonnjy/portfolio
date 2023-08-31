@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: inherit;
+    font-weight: inherit;
+    font-style: normal;
+    word-break: keep-all;
+}
+
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1;
+    color: #444;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+em,
+address {
+    font-style: normal;
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration{
+      opacity: 0;
+      position: absolute;
+      right: 0;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: none;
+    user-select: none;
+    cursor: pointer;
+}
