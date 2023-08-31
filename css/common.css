@@ -40,6 +40,11 @@ body {
 ._bg {
     background: url(../images/bg.png);
 }
+._grd {
+    max-width: 1440px;
+    margin: 0 auto;
+    background: url(../images/grid.png);
+}
 
 p {
     font-size: 16px;
