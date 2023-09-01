@@ -6,7 +6,7 @@
 
     height: 60px;
     line-height: 60px;
-    padding: 0 250px;
+    padding: 0 235px;
 
     background: #FFF;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
@@ -16,7 +16,7 @@
 .btn_link {
     position: fixed;
     top: 26px;
-    right: 255px;
+    right: 268px;
     z-index: 1000;
     transform: translate(0, 0);
     text-align: right;
@@ -91,7 +91,7 @@
 }
 
 #intro h2 {
-    width: 800px;
+    width: 990px;
     margin: 0 auto 100px auto;
 }
 
@@ -106,16 +106,16 @@
 
 #intro h2 span {
     display: inline-block;
-    width: 100px;
-    font-size: 64px;
-    line-height: 100px;
+    width: 120px;
+    line-height: 120px;
+    font-size: 56px;
     font-weight: 900;
     text-align: center;
 }
 
 #intro h2 span:nth-child(odd) {
-    background: #333;
-    color: #fff;
+    border: 1px solid #eee;
+    color: #222;
 }
 
 .pofol .img_box {
@@ -300,4 +300,133 @@
     background: #fff;
     border: 1px solid #ddd;
     color: inherit;
+}
+
+#porfile .f_inner {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+#profile .f_inner>.box {
+    display: flex;
+    gap: 30px;
+}
+
+#profile .box>* {
+    /* flex: 1; */
+    width: 330px;
+}
+
+#profile .info {
+    display: flex;
+    flex-direction: column;
+}
+
+#profile .info .img_box {
+    width: 330px;
+    height: 330px;
+    border: 1px solid #222;
+    line-height: 330px;
+    text-align: center;
+    margin: 0 0 24px;
+    background: #fff;
+}
+
+#profile .info .txt_box {
+    display: flex;
+    gap: 38px;
+    padding: 0 16px;
+    line-height: 26px;
+}
+
+#profile .info .txt_box .tit {
+    font-weight: 700;
+}
+
+#profile .info .txt_box .txt {
+    color: #888;
+}
+
+#profile h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 24px 0;
+}
+
+#profile .ecu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#profile .ecu .education strong {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+#profile .ecu .education span {
+    display: inline-block;
+    color: #888;
+    margin: 0 0 0 16px;
+}
+
+
+#profile .ecu .exprience strong {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#profile .ecu .exprience li {
+    display: flex;
+}
+
+#profile .ecu .exprience li~li {
+    margin: 24px 0 0 0;
+}
+
+#profile .ecu .exprience .box {
+    display: flex;
+    flex-direction: column;
+}
+
+#profile .ecu .exprience p {
+    margin: 0 0 4px 16px;
+    font-weight: 500;
+}
+
+#profile .ecu .exprience span {
+    display: block;
+    color: #888;
+    margin: 0 0 0 16px;
+}
+
+#profile .cert strong {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+#profile .cert span {
+    display: inline-block;
+    color: #888;
+    margin: 0 0 0 16px;
+}
+
+#profile .skill ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    row-gap: 16px;
+}
+#profile .skill li {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-weight: 700;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    background: #fff;
 }

@@ -59,10 +59,10 @@ txt.forEach((it, idx, arry) => {
         autoAlpha: 0,
         duration: 1,
         repeat: -1,
-        //repeatDelay: 2,
+        repeatDelay: 2,
         ease: "bounce",
         stagger: {
-            amount: 1,
+            amount: 3,
             from: "random"
         },
     });
